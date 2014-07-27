@@ -1,10 +1,10 @@
-## The following function demonstrate how it is possible to cahce the results 
+## The following functions demonstrate how it is possible to cahce the results 
 ## of an expensive calculation (like matrix inversion) for future use using
 ## using the lexical scoping feature of R.
 ## The code assumes that the matrix is invertible
 
 ## The following function creates a cached "matrix" object that really returns
-## a list of cuntions that allows the matrix and it's cached inverse
+## a list of functions that allows the matrix and its cached inverse
 ## to be accessed
 
 makeCacheMatrix <- function(x = matrix()) {
